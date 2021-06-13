@@ -74,12 +74,12 @@ function App() {
       </button>
 
       {showModal && (
+        
         <div className="modal">
-          <header className="header">
             <h1 className="title">Modal</h1>
             <button onClick={() => setShowModal(false)}>X</button>
-          </header>
         </div>
+
       )}
     </>
   );

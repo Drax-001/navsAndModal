@@ -9,6 +9,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: #f1f5f8;
+  font-family: monospace;
 }
 
 #root {
@@ -38,9 +39,11 @@ button {
 }
 
 @keyframes show {
+  
   from {
     transform: translate(-100%);
   }
+
   to {
     transform: translate(0);
   }
@@ -126,7 +129,7 @@ li {
 .modal {
   background-color: #fff;
   width: 800px;
-  height: 400px;
+  height:200px;
   padding: 10px;
   position: absolute;
   top: 50%;
@@ -134,4 +137,8 @@ li {
   transform: translate(-50%, -50%);
   box-shadow: 0 3px 6px 3px #617d98;
   border-radius: 10px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
